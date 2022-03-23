@@ -1,0 +1,45 @@
+body {   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {      
+    font-style: italic;
+    font-weight: 900;
+}
+
+.form {
+    font-weight: 900;
+    margin-top: 15px;
+    background-color: #00ff00;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;      
+}
+
+input { 
+    padding: 5px;
+    margin: 5px 0px 10px 0px;
+}
+
+#button {
+    all:unset;
+    background-color: orange;
+    border: 2px solid black ;
+    border-radius: 4px;
+    width: 150px;
+    padding: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button:hover {
+    background-color: #cc8400;
+}
